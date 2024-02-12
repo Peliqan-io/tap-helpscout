@@ -21,8 +21,11 @@ def do_discover():
 @singer.utils.handle_top_exception(LOGGER)
 def main():
     parsed_args = singer.utils.parse_args(REQUIRED_CONFIG_KEYS)
-    if parsed_args.dev:
+    if hasattr(parsed_args,'dev') and getattr(parsed_args,'dev'):
         LOGGER.warning("Executing tap in dev mode")
+    else:
+        parsed_args.dev = False
+    
 
     with HelpScoutClient(parsed_args.config_path, parsed_args.config, parsed_args.dev) as helpscout_client:
 
