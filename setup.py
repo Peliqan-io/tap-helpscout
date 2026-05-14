@@ -9,7 +9,7 @@ setup(
     author="jeff.huth@bytecode.io",
     classifiers=["Programming Language :: Python :: 3 :: Only"],
     py_modules=["tap_helpscout"],
-    install_requires=["backoff==1.8.0", "requests==2.23.0", "singer-python @ git+https://github.com/peliqan-io/singer-python@master"],
+    install_requires=["backoff>=2.2.1", "requests>=2.28.0", "singer-python @ git+https://github.com/peliqan-io/singer-python@master"],
     extras_require={
         "dev": [
             "ipdb",
