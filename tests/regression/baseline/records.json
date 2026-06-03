@@ -1,0 +1,26 @@
+{
+  "mailboxes": [
+    {
+      "created_at": "2026-05-22T11:12:16.000000Z",
+      "email": "help@peliqan.helpscoutapp.com",
+      "id": 368635,
+      "name": "Peliqan",
+      "slug": "b4171d441f618394",
+      "updated_at": "2026-05-22T11:12:18.000000Z"
+    }
+  ],
+  "teams": [],
+  "users": [
+    {
+      "created_at": "2026-05-22T11:11:23.000000Z",
+      "email": "dev@peliqan.io",
+      "first_name": "Dev",
+      "id": 936949,
+      "last_name": "Peliqan",
+      "role": "owner",
+      "timezone": "UTC",
+      "type": "user",
+      "updated_at": "2026-05-22T11:26:49.000000Z"
+    }
+  ]
+}

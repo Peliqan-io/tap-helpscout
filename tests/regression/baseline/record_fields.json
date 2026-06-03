@@ -1,0 +1,22 @@
+{
+  "mailboxes": [
+    "created_at",
+    "email",
+    "id",
+    "name",
+    "slug",
+    "updated_at"
+  ],
+  "teams": [],
+  "users": [
+    "created_at",
+    "email",
+    "first_name",
+    "id",
+    "last_name",
+    "role",
+    "timezone",
+    "type",
+    "updated_at"
+  ]
+}

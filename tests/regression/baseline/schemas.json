@@ -1,0 +1,169 @@
+{
+  "mailboxes": {
+    "additionalProperties": false,
+    "properties": {
+      "created_at": {
+        "format": "date-time",
+        "type": [
+          "null",
+          "string"
+        ]
+      },
+      "email": {
+        "type": [
+          "null",
+          "string"
+        ]
+      },
+      "id": {
+        "type": [
+          "null",
+          "integer"
+        ]
+      },
+      "name": {
+        "type": [
+          "null",
+          "string"
+        ]
+      },
+      "slug": {
+        "type": [
+          "null",
+          "string"
+        ]
+      },
+      "updated_at": {
+        "format": "date-time",
+        "type": [
+          "null",
+          "string"
+        ]
+      }
+    },
+    "type": "object"
+  },
+  "teams": {
+    "additionalProperties": false,
+    "properties": {
+      "created_at": {
+        "format": "date-time",
+        "type": [
+          "null",
+          "string"
+        ]
+      },
+      "id": {
+        "type": [
+          "integer"
+        ]
+      },
+      "initials": {
+        "type": [
+          "null",
+          "string"
+        ]
+      },
+      "mention": {
+        "type": [
+          "null",
+          "string"
+        ]
+      },
+      "name": {
+        "type": [
+          "null",
+          "string"
+        ]
+      },
+      "photo_url": {
+        "type": [
+          "null",
+          "string"
+        ]
+      },
+      "timezone": {
+        "type": [
+          "null",
+          "string"
+        ]
+      },
+      "updated_at": {
+        "format": "date-time",
+        "type": [
+          "null",
+          "string"
+        ]
+      }
+    },
+    "type": "object"
+  },
+  "users": {
+    "additionalProperties": false,
+    "properties": {
+      "created_at": {
+        "format": "date-time",
+        "type": [
+          "null",
+          "string"
+        ]
+      },
+      "email": {
+        "type": [
+          "null",
+          "string"
+        ]
+      },
+      "first_name": {
+        "type": [
+          "null",
+          "string"
+        ]
+      },
+      "id": {
+        "type": [
+          "null",
+          "integer"
+        ]
+      },
+      "last_name": {
+        "type": [
+          "null",
+          "string"
+        ]
+      },
+      "photo_url": {
+        "type": [
+          "null",
+          "string"
+        ]
+      },
+      "role": {
+        "type": [
+          "null",
+          "string"
+        ]
+      },
+      "timezone": {
+        "type": [
+          "null",
+          "string"
+        ]
+      },
+      "type": {
+        "type": [
+          "null",
+          "string"
+        ]
+      },
+      "updated_at": {
+        "format": "date-time",
+        "type": [
+          "null",
+          "string"
+        ]
+      }
+    },
+    "type": "object"
+  }
+}
